@@ -144,6 +144,9 @@ body {
   opacity: 0.5;
 }
 
+.header__picture {
+    border-radius: 10%;
+}
 .header__title {
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
@@ -209,10 +212,11 @@ body {
     color: var(--main-color);
   }
 
+
   .logo-picture {
-    height: 100px; /* Adjust size as needed */
+    width: 100px; 
     height: auto;
-    display: block; /* Ensures proper rendering */
+    display: block; 
 }
 
 @media (max-width: 900px) {
@@ -260,4 +264,18 @@ body {
   .header__subtitle {
     text-align: center;
   }
+}
+
+.project-img {
+    max-width: 80%;
+}
+
+.project-item{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.project-item:hover {
+    opacity: 50%;
+    cursor: pointer;
 }
