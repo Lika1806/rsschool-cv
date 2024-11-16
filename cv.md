@@ -1,7 +1,7 @@
 
 # Angela Sargsyan
 
-![My Photo](./images/my_image.jpeg)
+![My Photo](./images/my_image.jpg)
 
 
 
